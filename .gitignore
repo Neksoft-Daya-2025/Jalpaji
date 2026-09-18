@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.pem
+public/wp-content/plugins/
+public/wp-content/themes/
+public/wp-content/uploads/
