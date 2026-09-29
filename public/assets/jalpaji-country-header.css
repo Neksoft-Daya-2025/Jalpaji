@@ -1,0 +1,65 @@
+/* Compact header used only on the South Africa and Tanzania country pages. */
+#root:has(:is(.page-south-africa, .page-tanzania)) .site-header {
+  height: 86px !important;
+  min-height: 86px !important;
+  padding: 0 !important;
+}
+
+@media (min-width: 768px) {
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .header-inner {
+    width: 100%;
+    max-width: none !important;
+    height: 86px;
+    min-height: 86px !important;
+    margin: 0 !important;
+    gap: 0;
+  }
+
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .brand {
+    flex: 0 0 38%;
+    width: 38%;
+    justify-content: flex-end;
+    padding-right: 64px;
+  }
+
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .brand img {
+    width: 300px !important;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .main-nav {
+    flex: 0 0 62%;
+    width: 62%;
+    margin: 0 !important;
+    justify-content: center;
+    gap: 0;
+  }
+
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .nav-item { margin: 0 -5px; }
+
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .nav-item { flex: 0 0 auto; }
+
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .main-nav > .nav-item > a {
+    padding: 13px 20px;
+    color: #e2e2e2 !important;
+    font: 500 16px/20px "Roboto Serif", Georgia, serif;
+  }
+
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .dropdown {
+    padding: 0;
+    background: #cb0000 !important;
+  }
+
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .dropdown a {
+    padding: 13px 22.5px;
+    color: #fff !important;
+    font: 500 13px/20px "Roboto Serif", Georgia, serif;
+  }
+
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .dropdown a:hover,
+  #root:has(:is(.page-south-africa, .page-tanzania)) .site-header .dropdown a:focus-visible {
+    background: #cb0000 !important;
+    color: #fff !important;
+  }
+}

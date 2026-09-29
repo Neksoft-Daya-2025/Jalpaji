@@ -1,0 +1,8 @@
+/* Keep the desktop and tablet footer navigation on a single line. */
+@media (min-width: 521px) {
+  .footer-main-nav {
+    flex-wrap: nowrap;
+    gap: 24px;
+    white-space: nowrap;
+  }
+}
